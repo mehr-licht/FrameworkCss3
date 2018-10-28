@@ -1,0 +1,56 @@
+.logo-img{
+  width: 30%;
+}
+
+.imgfavoritos{
+  height: 7rem;
+  width: 7rem;
+}
+
+.avatar{
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+
+
+.branding {
+    background:url(../img/fondo01.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.principal{
+	background-color: rgba(169,162,162,0.6);
+}
+
+.search-filter-form {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  background: #fefefe;
+  padding: 0.25rem;
+  border-radius: 30px;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-filter-form input,
+.search-filter-form .button {
+  margin-bottom: 0;
+  border-radius: 30px;
+}
+
+.search-filter-form-near {
+  border: 0;
+  box-shadow: none;
+}
+.derecha {
+	align-items:  right;
+}
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	
+}
